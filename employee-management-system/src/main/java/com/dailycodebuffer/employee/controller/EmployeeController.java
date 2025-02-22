@@ -15,7 +15,7 @@ import java.util.Map;
 @RequestMapping("/api/v1/")
 public class EmployeeController {
 
-    private final EmployeeService employeeService;
+    private final EmployeeService employeService;
 
     public EmployeeController(EmployeeService employeeService) {
         this.employeeService = employeeService;
